@@ -15,13 +15,13 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
 [YouTube-Extended-New-devices]
 app-name = "YouTube"
-patches-source = "YT-Advanced/testpatches"
-integrations-source = "YT-Advanced/params"
+patches-source = "YT-Advanced/testpatch"
+integrations-source = "YT-Advanced/testinte"
 rv-brand = "ReVanced Extended"
 build-mode = "apk"
 excluded-patches = "custom-branding-name custom-branding-youtube-name custom-branding-icon-mmt custom-branding-icon-revancify-red custom-branding-icon-revancify-blue"
 included-patches = "materialyou disable-landscape-mode hide-double-tap-overlay-filter enable-debug-logging"
-version = "18.34.37"
+version = "18.35.35"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
 [YouTube-Extended-Old-Devices]
@@ -44,12 +44,11 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 apkmirror-arch = "both"                                                     # both arm64-v8a and arm-v7a
 
 [Music-Extended]
-enabled = false
 app-name = "Music"
-patches-source = "YT-Advanced/patches"
+patches-source = "YT-Advanced/testpatch"
 integrations-source = "YT-Advanced/testinte"
 cli-source = "YT-Advanced/revanced-cli"
-rv-brand = "Testmusic"
+rv-brand = "Music"
 build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 apkmirror-arch = "arm64-v8a"
